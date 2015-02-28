@@ -1,0 +1,29 @@
+{
+  "name": "babel-tape-runner",
+  "version": "1.0.0",
+  "description": "Babel + Tape for running your ES Next tests",
+  "bin": "./bin/babel-tape-runner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wavded/babel-tape-runner.git"
+  },
+  "keywords": [
+    "babel",
+    "tape",
+    "tests",
+    "testing",
+    "harmony",
+    "es6",
+    "esnext"
+  ],
+  "author": "Marc Harter <wavded@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wavded/babel-tape-runner/issues"
+  },
+  "homepage": "https://github.com/wavded/babel-tape-runner",
+  "dependencies": {
+    "babel": "^4.6.0",
+    "glob": "^4.4.1"
+  }
+}
