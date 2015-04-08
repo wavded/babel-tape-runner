@@ -1,6 +1,6 @@
 {
   "name": "babel-tape-runner",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Babel + Tape for running your ES Next tests",
   "bin": "./bin/babel-tape-runner",
   "repository": {
