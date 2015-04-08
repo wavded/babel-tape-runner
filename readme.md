@@ -12,7 +12,7 @@ npm install babel-tape-runner [-g]
 
 ## usage
 
-Just run `babel-tape-runner` with the files to test (just like tape's bundled runner).
+Just run `babel-tape-runner` with the files to test (just like tape's bundled runner).  Store configuration in a `.babelrc` file.
 
 ```sh
 babel-tape-runner my-es-next-test.js
