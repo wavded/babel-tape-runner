@@ -1,4 +1,5 @@
-# babel-tape-runner
+[![build status](https://img.shields.io/travis/wavded/babel-tape-runner.svg?style=flat-square)](https://travis-ci.org/wavded/babel-tape-runner) [![npm package](https://img.shields.io/npm/v/babel-tape-runner.svg?style=flat-square)](https://www.npmjs.org/package/io-barcode) [![dependency status](https://img.shields.io/david/wavded/babel-tape-runner.svg?style=flat-square)](https://david-dm.org/wavded/babel-tape-runnder)
+
 
 A test runner for tape that utilizes babel in order to run test suites that include ESNext/Harmony features.
 
