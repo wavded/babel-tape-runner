@@ -27,7 +27,7 @@
   "homepage": "https://github.com/wavded/babel-tape-runner",
   "dependencies": {
     "babel-core": "^5.8.20",
-    "glob": "^4.4.1"
+    "glob": "^5.0.14"
   },
   "devDependencies": {
     "standard": "^5.0.0",
