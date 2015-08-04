@@ -26,6 +26,6 @@
     "glob": "^4.4.1"
   },
   "peerDependencies": {
-    "babel": "*"
+    "babel-core": "*",
   }
 }
