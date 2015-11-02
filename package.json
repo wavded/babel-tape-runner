@@ -26,10 +26,11 @@
   },
   "homepage": "https://github.com/wavded/babel-tape-runner",
   "dependencies": {
-    "babel-core": "^5.8.20",
+    "babel-core": "^6.0.12",
     "glob": "^5.0.14"
   },
   "devDependencies": {
+    "babel-preset-es2015": "^6.0.12",
     "standard": "^5.0.0",
     "tape": "^4.0.2"
   }
