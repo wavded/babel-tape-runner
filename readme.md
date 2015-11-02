@@ -1,6 +1,5 @@
 [![build status](https://img.shields.io/travis/wavded/babel-tape-runner.svg?style=flat-square)](https://travis-ci.org/wavded/babel-tape-runner) [![npm package](https://img.shields.io/npm/v/babel-tape-runner.svg?style=flat-square)](https://www.npmjs.org/package/io-barcode) [![dependency status](https://img.shields.io/david/wavded/babel-tape-runner.svg?style=flat-square)](https://david-dm.org/wavded/babel-tape-runner)
 
-
 A test runner for tape that utilizes babel in order to run test suites that include ESNext/Harmony features.
 
 ## install
@@ -13,7 +12,7 @@ npm install babel-tape-runner [-g]
 
 ## usage
 
-Just run `babel-tape-runner` with the files to test (just like tape's bundled runner).  Store configuration in a `.babelrc` file.
+Just run `babel-tape-runner` with the files to test (just like tape's bundled runner).  Store configuration in a `.babelrc` file.  If you are running `babel@5`, ensure `babel-core@5` is installed first.
 
 ```sh
 babel-tape-runner my-es-next-test.js
