@@ -25,6 +25,16 @@ babel-tape-runner my-es-next-test.js
 babel-tape-runner lib/**/__tests__/*-test.js # or glob patterns
 ```
 
+For example, use this in your `package.json` file so you can run `npm test` to execute your tests:
+```json
+{
+    "scripts": {
+        "test": "babel-tape-runner \"lib/**/__tests__/*-test.js\" | faucet"
+    },
+    ""
+}
+```
+
 ## licence
 
 MIT
