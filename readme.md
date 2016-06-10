@@ -20,9 +20,11 @@ npm install babel-tape-runner [-g]
 Just run `babel-tape-runner` with the files to test (just like tape's bundled runner).  Store configuration in a `.babelrc` file.
 
 ```sh
-babel-tape-runner my-es-next-test.js
+babel-tape-runner --file my-es-next-test.js
 
-babel-tape-runner lib/**/__tests__/*-test.js # or glob patterns
+babel-tape-runner --files lib/**/__tests__/*-test.js # or glob patterns
+
+babel-tape-runner --files lib/**/__tests__/*-test.js --no-css # to ignore css that's being compiled by babel
 ```
 
 For example, use this in your `package.json` file so you can run `npm test` to execute your tests:
