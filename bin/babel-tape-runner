@@ -5,9 +5,23 @@ require('babel-polyfill')
 var path = require('path')
 var glob = require('glob')
 
-process.argv.slice(2).forEach(function (arg) {
+var fileFlags = ['-f', '--files', '--file']
+var noCSSFlags = ['-nc', '--no-css']
 
-  if (arg === '-f' || arg === '--files' || arg === '--file') {
+function isFileFlag (arg) {
+  return fileFlags.some(function (flag) {
+    return arg === flag
+  })
+}
+
+function isNoCSSFlag (arg) {
+  return noCSSFlags.some(function (flag) {
+    return arg === flag
+  })
+}
+
+process.argv.slice(2).forEach(function (arg, index) {
+  if (isFileFlag(arg)) {
     glob(process.argv[index + 3], function (er, files) {
       if (er) throw er
 
@@ -15,10 +29,9 @@ process.argv.slice(2).forEach(function (arg) {
         require(path.resolve(process.cwd(), file))
       })
     })
-  } else if (arg === '-nc' || arg === '--no-css') {
-    require('ignore-styles');
+  } else if (isNoCSSFlag(arg)) {
+    require('ignore-styles')
   }
-
 })
 
 // vim: ft=javascript
