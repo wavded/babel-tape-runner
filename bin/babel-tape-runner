@@ -7,7 +7,7 @@ var glob = require('glob')
 
 process.argv.slice(2).forEach(function (arg) {
 
-  if (arg === '-f' || arg === '--files') {
+  if (arg === '-f' || arg === '--files' || arg === '--file') {
     glob(process.argv[index + 3], function (er, files) {
       if (er) throw er
 
