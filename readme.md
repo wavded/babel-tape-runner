@@ -24,7 +24,7 @@ babel-tape-runner --file my-es-next-test.js
 
 babel-tape-runner --files lib/**/__tests__/*-test.js # or glob patterns
 
-bable-tape-runner --files lib/**/__tests__/*-test.js --no-css # to ignore css that's being compiled by babel
+babel-tape-runner --files lib/**/__tests__/*-test.js --no-css # to ignore css that's being compiled by babel
 ```
 
 For example, use this in your `package.json` file so you can run `npm test` to execute your tests:
