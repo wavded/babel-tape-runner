@@ -9,7 +9,7 @@
   },
   "scripts": {
     "pretest": "cp .testbabelrc .babelrc",
-    "test": "standard bin/babel-tape-runner test.js && node bin/babel-tape-runner test.js",
+    "test": "standard bin/babel-tape-runner -f test.js && node bin/babel-tape-runner -f test.js",
     "posttest": "rm .babelrc"
   },
   "keywords": [
