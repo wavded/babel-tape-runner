@@ -30,7 +30,8 @@
   "dependencies": {
     "babel-polyfill": "^6.3.14",
     "babel-register": "^6.3.13",
-    "glob": "^6.0.1"
+    "glob": "^6.0.1",
+    "ignore-styles": "^3.0.0"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.3.13",
