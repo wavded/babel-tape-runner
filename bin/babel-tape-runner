@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-require('babel-register')
-require('babel-polyfill')
+require('@babel/register')
+require('@babel/polyfill')
 var path = require('path')
 var glob = require('glob')
 
