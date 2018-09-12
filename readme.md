@@ -1,6 +1,7 @@
 [![build status](https://img.shields.io/travis/wavded/babel-tape-runner.svg?style=flat-square)](https://travis-ci.org/wavded/babel-tape-runner) [![npm package](https://img.shields.io/npm/v/babel-tape-runner.svg?style=flat-square)](https://www.npmjs.org/package/babel-tape-runner) [![dependency status](https://img.shields.io/david/wavded/babel-tape-runner.svg?style=flat-square)](https://david-dm.org/wavded/babel-tape-runner)
 
 ```
+Using Babel 7: Use ^3.0.0
 Using Babel 6: Use ^2.0.0
 Using Babel 5: Use ^1.0.0
 ```
